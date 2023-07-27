@@ -1,7 +1,84 @@
+:root {
+    --primary-color: #1ebfc1;
+}
+
 * {
     box-sizing: border-box;
 }
 
 html {
     font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+/* common */
+a {
+    text-decoration: none;
+}
+
+.main-content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+
+/* HEADER */
+.header.fixed {
+    position: sticky;
+    top: -44px;
+}
+
+.header .body {
+    display: flex;
+    align-items: center;
+    padding: 52px 0 8px;
+}
+
+.nav {
+    margin-left: auto;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav a {
+    color: #2f3a3b;
+    font-size: 1.6rem;
+    padding: 8px 20px;
+}
+
+.nav a.active,
+.nav a:hover {
+    /* font-weight: 600; */ /* khi hover bị ảnh hưởng tới các phần tử bên cạnh*/
+    text-shadow: 1px 0 0 currentColor;
+    color: #171100;
+}
+
+.body .action .action-link {
+    color: #494949;
+    font-size: 1.6rem;
+    padding: 8px 20px;
+    margin: 0 4px 0 157px;
+}
+
+.body .action .btn-signup {
+    display: inline-block;
+    min-width: 108px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 46px;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 0 22px;
+}
+
+.body .action .btn-signup:hover {
+    opacity: 0.9;
 }
