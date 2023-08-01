@@ -26,10 +26,36 @@ a {
     margin: 0 auto;
 }
 
+.heading {
+    color: #0d1111;
+    font-weight: 700;
+}
+
+.heading.lv1 {
+    font-size: 6.2rem;
+    line-height: 1.16; /* 116.129% */
+}
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 1);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp.line-3 {
+    --line-clamp: 3;
+}
+
+.break-all {
+    word-wrap: break-word;
+}
+
 /* HEADER */
 .header.fixed {
     position: sticky;
     top: -44px;
+    background: #fff;
 }
 
 .header .body {
@@ -81,4 +107,34 @@ a {
 
 .body .action .btn-signup:hover {
     opacity: 0.9;
+}
+/* Hero */
+.hero {
+    margin-top: 50px;
+}
+
+.hero .body {
+    display: flex;
+    align-items: center;
+}
+
+.hero .body .hero-left {
+    /* width: 51%; */
+}
+
+.hero .hero-left .desc-icon {
+    color: #767e7e;
+    font-size: 1.4rem;
+}
+
+.hero .hero-left .heading {
+    margin-top: 18px;
+}
+
+.hero .hero-left .desc {
+    margin-top: 46px;
+    color: #9da6a5;
+    font-size: 1.8rem;
+    width: 374px;
+    line-height: 1.78; /* 177.778% */
 }
