@@ -36,6 +36,23 @@ a {
     line-height: 1.16; /* 116.129% */
 }
 
+.btn {
+    display: inline-block;
+    color: #fff;
+    min-width: 186px;
+    line-height: 68px;
+    text-align: center;
+    font-size: 1.8rem;
+    border-radius: 14px;
+    font-weight: 600;
+    background: var(--primary-color);
+    padding: 0 41px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
 .line-clamp {
     display: -webkit-box;
     -webkit-line-clamp: var(--line-clamp, 1);
@@ -56,6 +73,7 @@ a {
     position: sticky;
     top: -44px;
     background: #fff;
+    z-index: 1;
 }
 
 .header .body {
@@ -108,7 +126,7 @@ a {
 .body .action .btn-signup:hover {
     opacity: 0.9;
 }
-/* Hero */
+/* ============Hero================= */
 .hero {
     margin-top: 50px;
 }
@@ -118,23 +136,203 @@ a {
     align-items: center;
 }
 
-.hero .body .hero-left {
-    /* width: 51%; */
-}
-
-.hero .hero-left .desc-icon {
+/* =======hero-left============= */
+.hero-left .desc-icon {
     color: #767e7e;
     font-size: 1.4rem;
 }
 
-.hero .hero-left .heading {
+.hero-left .heading {
     margin-top: 18px;
 }
 
-.hero .hero-left .desc {
+.hero-left .desc {
     margin-top: 46px;
     color: #9da6a5;
     font-size: 1.8rem;
     width: 374px;
     line-height: 1.78; /* 177.778% */
+}
+
+.hero-left .cta-group {
+    margin-top: 52px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-left .hero-btn {
+    margin-right: 50px;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero-left .play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 62px;
+    height: 62px;
+    border: none;
+    border-radius: 62px;
+    background: #fff;
+    box-shadow: 0px 22px 50px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero-left .play:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+/* ===========hero-right============= */
+.media-block {
+    position: relative;
+}
+
+.media-block .img {
+    width: 576px;
+    height: 631px;
+    object-fit: cover;
+}
+
+.media-block .desc {
+    color: #0d1111;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.media-block .Courses {
+    position: absolute;
+    top: 149px;
+    left: -40px;
+    display: flex;
+    min-width: 157px;
+    align-items: center;
+    padding: 18px 25px;
+    border-radius: 18px;
+    background: #fefefd;
+    box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.media-block .Courses .book-icon {
+    position: relative;
+    width: 36px;
+    height: 40px;
+    background: #ff8282;
+    border-radius: 5px 2px 2px 5px;
+}
+
+.media-block .Courses .book-icon::before {
+    position: absolute;
+    top: 28px;
+    left: 4px;
+    right: 4px;
+    content: "";
+    display: block;
+    width: 28px;
+    height: 4px;
+    background: #ffffff;
+    border-radius: 4px;
+}
+.media-block .Courses .desc {
+    margin-left: 16px;
+    width: 55px;
+}
+
+.media-block .schedules {
+    position: absolute;
+    bottom: 46px;
+    left: -65px;
+    min-width: 124px;
+    background-color: #fff;
+    border-radius: 24px;
+    box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.media-block .schedules .content {
+    padding: 16px 25px 23px;
+}
+
+.media-block .schedules .desc {
+    text-align: center;
+}
+
+.media-block .schedules .range {
+    position: relative;
+    display: block;
+    background: #edf1f5;
+    border-radius: 3px;
+    width: 74px;
+    height: 6px;
+    margin: 0 auto;
+}
+
+.media-block .schedules .range:nth-child(4) {
+    width: 26px;
+}
+
+.media-block .schedules .range::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    background: #fb9899;
+    border-radius: 3px;
+}
+
+.media-block .schedules .range:nth-child(1) {
+    margin: 16px 0 12px;
+}
+
+.media-block .schedules .range:nth-child(1)::after {
+    width: 52.5%;
+}
+
+.media-block .schedules .range:nth-child(2) {
+    margin-bottom: 10px;
+}
+
+.media-block .schedules .range:nth-child(2)::after {
+    width: 69%;
+}
+
+.media-block .schedules .range:nth-child(3) {
+    margin-bottom: 16px;
+}
+
+.media-block .schedules .range:nth-child(3)::after {
+    width: 44.5%;
+}
+
+.media-block .Our-Active-Students {
+    position: absolute;
+    bottom: 41px;
+    right: 45px;
+    min-width: 207px;
+    padding: 17px 35px;
+    background: #fff;
+    border-radius: 24px;
+    box-shadow: 0px 12px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.Our-Active-Students .avartar-blog {
+    display: flex;
+    margin-top: 8px;
+}
+
+.Our-Active-Students .avartar-blog .avatar {
+    width: 33px;
+    height: 33px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: -7px;
+}
+
+.Our-Active-Students .avartar-blog .avatar-ten {
+    background: var(--primary-color);
+    text-align: center;
+}
+
+.Our-Active-Students .avatar-ten span {
+    color: #fff;
+    line-height: 33px;
+    font-size: 1rem;
+    font-weight: 500;
 }
