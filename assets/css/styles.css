@@ -41,6 +41,10 @@ a {
     line-height: 1.33;
 }
 
+.heading.lv3 {
+    font-size: 2.2rem;
+}
+
 .sub-title {
     color: #767e7e;
     font-size: 1.2rem;
@@ -357,7 +361,8 @@ a {
 /* FEATURES */
 
 .features {
-    margin-top: 130px;
+    margin-top: 30px;
+    padding-top: 100px;
 }
 
 /* features-info */
@@ -412,4 +417,106 @@ a {
 
 .features-list .features-item:last-child .desc {
     width: 224px;
+}
+
+/* C  O  U  R  S  E  S */
+.courses {
+    margin-top: 30px;
+    padding-top: 100px;
+}
+
+.courses-info .heading {
+    margin: 18px 0 19px;
+}
+
+.courses-info .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses-info .info .desc {
+    width: 525px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    line-height: 1.78; /* 177.778% */
+}
+
+.courses-info .info .link {
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.courses-list {
+    margin-top: 79px;
+    display: flex;
+    gap: 47px;
+}
+
+.courses-list .courses-item {
+    position: relative;
+    width: 33.33%;
+}
+
+.courses-item .image img {
+    width: 359px;
+    height: 393px;
+    object-fit: cover;
+    border-radius: 8px;
+    opacity: 0.65;
+    cursor: pointer;
+}
+
+.courses-item .info-courses {
+    position: absolute;
+    top: 322px;
+    left: 17px;
+    width: 325px;
+    padding: 18px 35px 29px 25px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+.courses-item .info-courses .number {
+    margin: 20px 0 10px;
+    color: #767e7e;
+    font-size: 1.6rem;
+}
+
+.courses-item .number span {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.courses-item .info-courses .desc {
+    color: #9da6a5;
+    font-size: 1.4rem;
+    margin-bottom: 18px;
+}
+
+.courses-item .date {
+    display: flex;
+    gap: 10px;
+}
+
+.courses-item .date .date-info {
+    display: flex;
+    align-items: center;
+    color: #9da6a5;
+    font-size: 1.4rem;
+}
+
+.courses-item .date .date-info::before {
+    display: inline-block;
+    margin-right: 10px;
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--primary-color);
 }
