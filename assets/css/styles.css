@@ -520,3 +520,36 @@ a {
     border-radius: 50%;
     background: var(--primary-color);
 }
+/* ==============Number============== */
+.numbers {
+    margin-top: 180px;
+    padding-top: 195px;
+}
+
+.numbers .content-number {
+    width: 862px;
+}
+
+.numbers .row-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.number-span {
+    display: block;
+    text-align: center;
+}
+
+.numbers .number-item .number-span {
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+}
+
+.numbers .number-item .number-label {
+    margin-top: 22px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    text-align: center;
+}
