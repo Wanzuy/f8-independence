@@ -553,3 +553,112 @@ a {
     font-size: 1.8rem;
     text-align: center;
 }
+
+/* ======feedback===== */
+.feedback {
+    margin-top: 132px;
+    padding-top: 132px;
+}
+
+.content-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback .feedback-info {
+    width: 35.8%;
+    padding: 37px 0;
+}
+
+.feedback .feedback-info .desc {
+    margin-top: 27px;
+    width: 419px;
+    color: #5d6564;
+    font-size: 3.2rem;
+    line-height: 1.5; /* 150% */
+}
+
+.feedback .feedback-info .qoute {
+    margin: 33px 0 52px;
+    color: #767e7e;
+    font-size: 1.6rem;
+}
+
+.feedback .feedback-info .qoute strong {
+    font-weight: 500;
+    color: #070707;
+}
+
+.feedback .arrow {
+    display: flex;
+    gap: 30px;
+}
+
+.feedback .arrow .arrow-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    background: #2ac9bf;
+}
+
+.feedback .arrow .arrow-block:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.feedback .feedback-img {
+    position: relative;
+    width: 58%;
+    /* margin-left: auto; */
+}
+
+.feedback .feedback-img .img {
+    position: absolute;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feedback .feedback-img .img-main {
+    width: 235px;
+    height: 235px;
+    inset: 107px 171px 139px 273px;
+}
+
+.feedback .feedback-img .img-small {
+    width: 78px;
+    height: 78px;
+}
+
+.feedback .feedback-img .img-lv2 {
+    left: 0;
+    top: 258px;
+}
+
+.feedback .feedback-img .img-lv3 {
+    width: 92px;
+    height: 92px;
+    top: 0px;
+    left: 144px;
+}
+
+.feedback .feedback-img .img-lv4 {
+    bottom: 29px;
+    right: 32px;
+}
+
+.feedback .feedback-img .img-lv5 {
+    width: 110px;
+    height: 110px;
+    right: 0;
+    top: 19px;
+}
+
+.feedback .feedback-img .img-lv6 {
+    bottom: 0;
+    left: 212px;
+}
