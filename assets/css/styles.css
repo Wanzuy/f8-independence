@@ -522,8 +522,8 @@ a {
 }
 /* ==============Number============== */
 .numbers {
-    margin-top: 180px;
-    padding-top: 195px;
+    margin-top: 275px;
+    padding-top: 100px;
 }
 
 .numbers .content-number {
@@ -661,4 +661,76 @@ a {
 .feedback .feedback-img .img-lv6 {
     bottom: 0;
     left: 212px;
+}
+
+/* ===============Started=============== */
+.started {
+    margin-top: 130px;
+    padding: 76px 0 88px 0;
+    background: #def6f5;
+}
+
+.started .body {
+    display: flex;
+    align-items: center;
+}
+
+.started .body .item {
+    margin-right: 410px;
+}
+
+.started .body .desc {
+    margin-top: 18px;
+    color: #767e7e;
+    font-size: 1.8rem;
+}
+
+/* footer */
+.footer {
+    margin-top: 130px;
+}
+
+.footer .row {
+    display: flex;
+}
+
+.footer .column {
+    margin-left: 144px;
+}
+
+.footer .column .heading {
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.footer .list {
+    margin-top: 25px;
+}
+
+.footer .list .item {
+    margin-top: 18px;
+}
+
+.footer .list .item a {
+    color: #535353;
+    font-size: 1.6rem;
+}
+
+.footer .column:nth-child(3) {
+    margin-left: 137px;
+}
+
+.footer .social a {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+/* Copyright */
+.footer .Copyright {
+    margin: 80px 0 50px;
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    text-align: center;
 }
