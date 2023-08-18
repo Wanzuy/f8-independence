@@ -458,6 +458,7 @@ a {
 .courses-list .courses-item {
     position: relative;
     width: 33.33%;
+    padding-bottom: 93px;
 }
 
 .courses-item .image img {
@@ -471,7 +472,7 @@ a {
 
 .courses-item .info-courses {
     position: absolute;
-    top: 322px;
+    bottom: 0;
     left: 17px;
     width: 325px;
     padding: 18px 35px 29px 25px;
@@ -522,8 +523,8 @@ a {
 }
 /* ==============Number============== */
 .numbers {
-    margin-top: 275px;
-    padding-top: 100px;
+    margin-top: 132.5px;
+    padding-top: 132.5px;
 }
 
 .numbers .content-number {
